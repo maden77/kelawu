@@ -31,3 +31,40 @@ google-services.json
 
 # Android Profiling
 *.hprof
+#----------------------#
+# 1. FILE ENVIRONMENT #
+#----------------------#
+.env                   # File environment (selalu di-ignore!)
+.env.local             
+.env.development
+.env.production
+.env.test
+.env.*                 # Semua varian .env
+secrets.json           # File konfigurasi rahasia
+config/credentials.yml # Contoh: Rails encrypted credentials
+
+#----------------------#
+# 2. DATA PRIBADI #
+#----------------------#
+/data_private/         # Folder penyimpanan data sensitif
+*.csv                 # File CSV yang mungkin berisi data user
+*.xlsx                # File Excel dengan data mentah
+*.sql                 # Dump database
+*.key                 # File kunci (e.g., enkripsi)
+*.pem                 # Sertifikat SSL
+*.cert                # File sertifikat
+
+#----------------------#
+# 3. LOG & CACHE #
+#----------------------#
+*.log                 # Log yang mungkin mengandung informasi sensitif
+logs/
+tmp/
+.cache/
+
+#----------------------#
+# 4. SISTEM/IDE #
+#----------------------#
+.DS_Store             # File metadata macOS
+.idea/                # Folder IDE JetBrains
+.vscode/              # Folder VS Code
