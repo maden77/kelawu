@@ -139,7 +139,11 @@ tombolLempar.addEventListener("click", lemparDadu);
 tampilkanSkor();
 updateGiliranUI();
 updateBoard();
-
+    if ('service worker' in navigator)
+    { 
+      navigator.serviceworker. register('sw.js');
+              }
+      
   </script>
 </body>
 </html>
