@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ular Tangga 🐍🎲</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4CAF50" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🐍 Ular Tangga 🎲</h1>
+  <div id="board"></div>
+  <div id="info">Tekan tombol "L" untuk lempar dadu 🎲</div>
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
