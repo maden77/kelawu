@@ -40,4 +40,3 @@ updateBoard(); setupNama();
 
 document.getElementById("lemparBtn").addEventListener("click", lemparDadu); document.addEventListener("keydown", e => { if (e.key.toLowerCase() === "l") lemparDadu(); });
 
-  
