@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #e0f7fa;
+}
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  gap: 4px;
+  justify-content: center;
+  margin: 20px;
+}
+#board div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-size: 16px;
+}
+#info {
+  margin-top: 10px;
+  font-size: 18px;
+}
