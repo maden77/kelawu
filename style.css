@@ -20,6 +20,10 @@ body {
   background: #fff;
   font-size: 16px;
 }
+#skor {
+  font-size: 18px;
+  margin: 8px 0;
+}
 #dadu {
   font-size: 48px;
   margin: 10px;
