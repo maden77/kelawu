@@ -20,6 +20,19 @@ body {
   background: #fff;
   font-size: 16px;
 }
+#dadu {
+  font-size: 48px;
+  margin: 10px;
+  animation: none;
+}
+@keyframes putar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(720deg); }
+}
+#giliran {
+  font-size: 20px;
+  margin-top: 10px;
+}
 #info {
   margin-top: 10px;
   font-size: 18px;
